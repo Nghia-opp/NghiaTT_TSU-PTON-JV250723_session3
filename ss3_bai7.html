@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 420px;
+            padding: 10px;
+            color:darkred ;
+            margin: 30px;
+            border: 20px solid aqua;
+        }
+        header{
+            background-color:khaki;
+            text-align: center;
+        }
+        label {
+            color:coral;
+            padding-right: 20px; 
+        }
+        div {
+            margin-left: 0px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <header>
+            <P>SỞ THÍCH CỦA BẠN</P>
+        </header>
+        <section>
+            <table>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td> <input type="text" name="usename" placeholder="Họ và tên đầy đủ"></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 27px;">Email</td>
+                    <td><input type="text" name="Email" placeholder="...@gmail.com"><br/></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 80px; padding-left: 10px;">Sở thích</td>
+                    <td>
+                        <div>
+                            <label><input type="checkbox" name="hoppy" value="sport">Thể thao</label>
+                            <label><input type="checkbox" name="hoppy" value="music">Âm nhạc</label>
+                            <label><input type="checkbox" name="hoppy" value="reading">Đọc sách</label><br/>
+                            <label><input type="checkbox" name="hoppy" value="search web">Lướt web</label>
+                            <label><input type="checkbox" name="hoppy" value="playing game">chơi game</label>
+                            <label><input type="checkbox" name="hoppy" value="cinema">Điện ảnh</label><br/>
+                            <label><input type="checkbox" name="hoppy" value="travel">Du lịch</label><br/>
+                            <button>Gửi thông tin</button>
+                            <button>Nhập lại</button>
+                        </div>  
+                    </td>
+                </tr>
+            </table>
+        </section>  
+    </form>
+</body>
+</html>
